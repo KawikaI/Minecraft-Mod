@@ -1,0 +1,9 @@
+/gamemode creativer
+/gamemode creative
+/give @p tutorialmod:pink_garnet_block 64
+/give @p tutorialmod:pink_garnet_ore 64
+/give @p tutorialmod:pink_garnet_deepslate_ore 64
+/give @p tutorialmod:raw_pink_garnet_block 64
+/gamemode survival
+/gamemode creative
+/gamemode survival
