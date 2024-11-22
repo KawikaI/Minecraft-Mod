@@ -1,5 +1,8 @@
 {
   "item.tutorialmod.ruby": "Ruby",
-  "item.tutorialmod.raw_ruby": "Raw Ruby"
+  "item.tutorialmod.raw_ruby": "Raw Ruby",
+
+  "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
+  "block.tutorialmod.raw_pink_garnet_block": "Block of Raw Pink Garnet"
 }
 

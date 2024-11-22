@@ -2,6 +2,7 @@ package kawika.tutorialmod;
 
 
 
+import kawika.tutorialmod.block.ModBlocks;
 import kawika.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -17,5 +18,6 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
