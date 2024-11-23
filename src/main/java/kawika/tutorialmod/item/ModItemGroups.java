@@ -23,6 +23,9 @@ public class ModItemGroups {
                         // enter into tab
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
+                        entries.add(ModItems.GOON_BOW);
+                        entries.add(ModItems.CAULIFLOWER);
+                        entries.add(ModItems.STARLIGHT_ASHES);
                     }).build());
 
     // create custom blocks item group
@@ -34,6 +37,9 @@ public class ModItemGroups {
                         // enter into tab
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
+
+                        entries.add(ModBlocks.PINK_GARNET_ORE);
+                        entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
                     }).build());
 
     // register item groups

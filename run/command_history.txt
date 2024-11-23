@@ -7,3 +7,6 @@
 /gamemode survival
 /gamemode creative
 /gamemode survival
+/gamemode creative
+/give @a minecraft:arrow 64
+/weather clear

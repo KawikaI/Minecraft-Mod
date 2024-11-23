@@ -3,6 +3,7 @@ package kawika.tutorialmod.item;
 import kawika.tutorialmod.TutorialMod;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.BowItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -14,10 +15,22 @@ public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new Item.Settings()));
 
+
+    public static final Item GOON_BOW = registerItem("goon_bow",
+            new BowItem(new Item.Settings().maxDamage(500)));
+
+    public static final Item CAULIFLOWER = registerItem("cauliflower",
+            new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
+
+    public static final Item STARLIGHT_ASHES = registerItem("starlight_ashes",
+            new Item(new Item.Settings()));
+
+
     // adds items to ingredients tab
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
         entries.add(RAW_RUBY);
+        entries.add(CAULIFLOWER);
     }
 
     // register items
