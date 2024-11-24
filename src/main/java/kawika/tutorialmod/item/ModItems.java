@@ -22,7 +22,7 @@ public class ModItems {
     public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)) {
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-            tooltip.add(Text.translatable("tooltip.tutorialmod.cauliflower.tooltip"));
+            tooltip.add(Text.translatable("Custom Caulifower Tool tip!"));
             super.appendTooltip(stack, context, tooltip, type);
         }
     });
