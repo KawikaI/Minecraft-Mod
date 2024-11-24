@@ -17,12 +17,12 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup CUSTOM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TutorialMod.MOD_ID, "custom_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RUBY))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET))
                     .displayName(Text.translatable("itemgroup.tutorialmod.custom_items"))
                     .entries((displayContext, entries) -> {
                         // enter into tab
-                        entries.add(ModItems.RUBY);
-                        entries.add(ModItems.RAW_RUBY);
+                        entries.add(ModItems.PINK_GARNET);
+                        entries.add(ModItems.RAW_PINK_GARNET);
                         entries.add(ModItems.GOON_BOW);
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.STARLIGHT_ASHES);

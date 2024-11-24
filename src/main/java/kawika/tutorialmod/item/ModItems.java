@@ -12,8 +12,8 @@ import net.minecraft.util.Identifier;
 
 // creates  and init items
 public class ModItems {
-    public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
-    public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new Item.Settings()));
+    public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
+    public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
 
 
     public static final Item GOON_BOW = registerItem("goon_bow",
@@ -28,8 +28,8 @@ public class ModItems {
 
     // adds items to ingredients tab
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(RUBY);
-        entries.add(RAW_RUBY);
+        entries.add(PINK_GARNET);
+        entries.add(RAW_PINK_GARNET);
         entries.add(CAULIFLOWER);
     }
 
