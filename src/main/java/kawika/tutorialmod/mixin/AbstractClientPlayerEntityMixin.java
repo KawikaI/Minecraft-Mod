@@ -1,5 +1,5 @@
 package kawika.tutorialmod.mixin;
-
+import kawika.tutorialmod.item.ModItems;
 import com.mojang.authlib.GameProfile;
 import kawika.tutorialmod.item.ModItems;
 import net.minecraft.client.MinecraftClient;

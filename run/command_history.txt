@@ -13,3 +13,4 @@
 /give @a minecraft:arrow 64
 /give @a minecraft:crafting_table
 /give @a starlight ashes
+/clear
