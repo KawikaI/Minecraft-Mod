@@ -14,3 +14,6 @@
 /give @a minecraft:crafting_table
 /give @a starlight ashes
 /clear
+/summon tutorialmod:porcupine
+/summon tu
+/summon tutorialmod:porcupine
