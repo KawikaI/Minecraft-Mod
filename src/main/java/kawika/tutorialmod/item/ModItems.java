@@ -65,6 +65,12 @@ public class ModItems {
             entries.add(PINK_GARNET);
             entries.add(RAW_PINK_GARNET);
         });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.SPAWN_EGGS).register(entries -> {
+            entries.add(PORCUPINE_SPAWN_EGG);
+        });
+
+
     }
 }
 

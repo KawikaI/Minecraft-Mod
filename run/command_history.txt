@@ -17,3 +17,4 @@
 /summon tutorialmod:porcupine
 /summon tu
 /summon tutorialmod:porcupine
+/give tutorialmod:porcupine_spawn_egg
