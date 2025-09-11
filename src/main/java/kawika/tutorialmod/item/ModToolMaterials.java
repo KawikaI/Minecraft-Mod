@@ -5,13 +5,23 @@ import kawika.tutorialmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    PINK_GARNET(ModTags.Blocks.INCORRECT_FOR_PINK_GARNET_TOOL,
-            1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.PINK_GARNET));
+
+    FLOURITE(
+            ModTags.Blocks.INCORRECT_FOR_FLOURITE_TOOL,
+            1200, 5.0F, 4.0F, 22,
+            () -> Ingredient.ofItems(ModItems.FLOURITE)
+    ),
+    PINK_GARNET(
+            ModTags.Blocks.INCORRECT_FOR_PINK_GARNET_TOOL,
+            1200, 5.0F, 4.0F, 22,
+            () -> Ingredient.ofItems(ModItems.PINK_GARNET)
+    ); // <-- semicolon ends the constants list
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

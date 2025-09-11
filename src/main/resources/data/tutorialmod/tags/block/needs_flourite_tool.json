@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:incorrect_for_iiron_tool"
+  ],
+  "remove": [
+    "#tutorialmod:needs_flourite_tool"
+  ]
+}

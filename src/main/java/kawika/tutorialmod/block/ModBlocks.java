@@ -24,6 +24,14 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool()));
 
+    public static final Block FLOURITE_BLOCK = registerBlock("flourite_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool()));
+
+    public static final Block FLOURITE_DEEPSLATE_BLOCK = registerBlock("flourite_deepslate_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool()));
+
 
     public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
         new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),

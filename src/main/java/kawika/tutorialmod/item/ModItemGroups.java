@@ -50,11 +50,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
 
 
+                    }).build());
+
+    public static final ItemGroup FLOURITE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "flourite_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.FLOURITE))
+                    .displayName(Text.translatable("itemgroup.tutorialmod.flourite_items"))
+                    .entries((displayContext, entries) -> {
+
+
+                        entries.add(ModItems.FLOURITE_SWORD);
+                        entries.add(ModItems.FLOURITE_PICKAXE);
+                        entries.add(ModItems.FLOURITE_SHOVEL);
+                        entries.add(ModItems.FLOURITE_AXE);
+                        entries.add(ModItems.FLOURITE_HOE);
+                        entries.add(ModItems.FLOURITE);
+                        entries.add(ModBlocks.FLOURITE_BLOCK);
+                        entries.add(ModBlocks.FLOURITE_DEEPSLATE_BLOCK);
 
 
                     }).build());
-
-
 
 
     public static void registerItemGroups() {

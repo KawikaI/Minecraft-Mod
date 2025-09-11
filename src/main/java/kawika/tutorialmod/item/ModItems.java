@@ -19,7 +19,7 @@ public class ModItems {
     public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
             new SpawnEggItem(ModEntities.PORCUPINE, 0xa86518, 0x3b260f, new Item.Settings()));
 
-
+    public static final Item FLOURITE = registerItem("flourite", new Item(new Item.Settings()));
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
 
@@ -35,6 +35,25 @@ public class ModItems {
     });
 
     public static final Item STARLIGHT_ASHES = registerItem("starlight_ashes", new Item(new Item.Settings()));
+
+    public static final Item FLOURITE_SWORD = registerItem("flourite_sword",
+            new SwordItem(ModToolMaterials.FLOURITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.FLOURITE, 3, -2.4f))));
+
+    public static final Item FLOURITE_PICKAXE = registerItem("flourite_pickaxe",
+            new PickaxeItem(ModToolMaterials.FLOURITE, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.FLOURITE, 1, -2.8f))));
+    public static final Item FLOURITE_SHOVEL = registerItem("flourite_shovel",
+            new ShovelItem(ModToolMaterials.FLOURITE, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.FLOURITE, 1.5f, -3.0f))));
+    public static final Item FLOURITE_AXE = registerItem("flourite_axe",
+            new AxeItem(ModToolMaterials.FLOURITE, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.FLOURITE, 6, -3.2f))));
+    public static final Item FLOURITE_HOE = registerItem("flourite_hoe",
+            new HoeItem(ModToolMaterials.FLOURITE, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.FLOURITE, 0, -3f))));
+
+
 
     public static final Item PINK_GARNET_SWORD = registerItem("pink_garnet_sword",
             new SwordItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
