@@ -72,6 +72,8 @@ public class ModItemGroups {
                         entries.add(ModItems.FLOURITE_CHESTPLATE);
                         entries.add(ModItems.FLOURITE_LEGGINGS);
                         entries.add(ModItems.FLOURITE_BOOTS);
+                        entries.add(ModBlocks.FLOURITE_BUTTON);
+                        entries.add(ModBlocks.FLOURITE_PRESSURE_PLATE);
 
 
                     }).build());
