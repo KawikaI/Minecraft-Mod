@@ -20,6 +20,7 @@ public class ModItems {
             new SpawnEggItem(ModEntities.PORCUPINE, 0xa86518, 0x3b260f, new Item.Settings()));
 
     public static final Item FLOURITE = registerItem("flourite", new Item(new Item.Settings()));
+    public static final Item RAW_FLOURITE = registerItem("raw_flourite", new Item(new Item.Settings()));
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
 
@@ -52,6 +53,22 @@ public class ModItems {
     public static final Item FLOURITE_HOE = registerItem("flourite_hoe",
             new HoeItem(ModToolMaterials.FLOURITE, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.FLOURITE, 0, -3f))));
+
+    public static final Item FLOURITE_HELMET = registerItem("flourite_helmet",
+            new ArmorItem(ModArmorMaterials.FLOURITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+
+    public static final Item FLOURITE_CHESTPLATE = registerItem("flourite_chestplate",
+            new ArmorItem(ModArmorMaterials.FLOURITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+
+    public static final Item FLOURITE_LEGGINGS = registerItem("flourite_leggings",
+            new ArmorItem(ModArmorMaterials.FLOURITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+
+    public static final Item FLOURITE_BOOTS = registerItem("flourite_boots",
+            new ArmorItem(ModArmorMaterials.FLOURITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
 
 
@@ -92,4 +109,3 @@ public class ModItems {
 
     }
 }
-

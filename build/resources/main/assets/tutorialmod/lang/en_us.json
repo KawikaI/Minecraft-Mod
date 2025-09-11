@@ -4,6 +4,7 @@
   "block.tutorialmod.flourite_block": "Fluorite Block",
 
   "item.tutorialmod.pink_garnet": "Pink Garnet",
+  "item.tutorialmod.raw_flourite": "Rw Fluorite",
   "item.tutorialmod.raw_pink_garnet": "Raw Pink Garnet",
   "item.tutorialmod.flourite": "Fluorite",
 
@@ -33,6 +34,13 @@
   "item.tutorialmod.flourite_hoe": "Fluorite Hoe",
   "item.tutorialmod.flourite_axe": "Fluorite Axe",
   "item.tutorialmod.flourite_pickaxe": "Fluorite Pickaxe",
+
+  "item.tutorialmod.flourite_helmet": "Fluorite Helmet",
+  "item.tutorialmod.flourite_chestplate": "Fluorite Chestplate",
+  "item.tutorialmod.flourite_leggings": "Fluorite Leggings",
+  "item.tutorialmod.flourite_boots": "Fluorite Boots",
+
+
 
   "item.tutorialmod.pink_garnet_sword": "Pink Garnet Sword",
   "item.tutorialmod.pink_garnet_shovel": "Pink Garnet Shovel",

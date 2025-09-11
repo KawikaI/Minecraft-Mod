@@ -1,19 +1,3 @@
-/gamemode creativer
-/gamemode creative
-/give @p tutorialmod:pink_garnet_block 64
-/give @p tutorialmod:pink_garnet_ore 64
-/give @p tutorialmod:pink_garnet_deepslate_ore 64
-/give @p tutorialmod:raw_pink_garnet_block 64
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/give @a minecraft:arrow 64
-/weather clear
-/give @a minecraft:arrow 64
-/give @a minecraft:crafting_table
-/give @a starlight ashes
-/clear
 /summon tutorialmod:porcupine
 /summon tu
 /summon tutorialmod:porcupine
@@ -47,3 +31,20 @@
 /gamemode survival
 /gamemode creative
 /gamemode survival
+/gamemode creative
+/gamemode survival
+/recipe give @s tutorialmod:flourite_helmet
+/recipe give @s tutorialmod:flouriteaxe
+/recipe give @s tutorialmod:pink_garnet_axe
+/recipe give @s tutorialmod:flourite_axe
+/recipe give @s tutorialmod:flourite_sword
+/recipe give @s tutorialmod:flourite
+/give @s tutorialmod:flourite
+/recipe give @s tutorialmod:flourite_helmet
+/recipe give @s tutorialmod:flourite_boots
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/reload
+/loot give @s loot tutorialmod:blocks/flourite_deepslate_block

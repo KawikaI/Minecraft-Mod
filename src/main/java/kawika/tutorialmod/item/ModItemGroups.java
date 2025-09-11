@@ -65,8 +65,13 @@ public class ModItemGroups {
                         entries.add(ModItems.FLOURITE_AXE);
                         entries.add(ModItems.FLOURITE_HOE);
                         entries.add(ModItems.FLOURITE);
+                        entries.add(ModItems.RAW_FLOURITE);
                         entries.add(ModBlocks.FLOURITE_BLOCK);
                         entries.add(ModBlocks.FLOURITE_DEEPSLATE_BLOCK);
+                        entries.add(ModItems.FLOURITE_HELMET);
+                        entries.add(ModItems.FLOURITE_CHESTPLATE);
+                        entries.add(ModItems.FLOURITE_LEGGINGS);
+                        entries.add(ModItems.FLOURITE_BOOTS);
 
 
                     }).build());
