@@ -21,6 +21,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FLOURITE_BLOCK,
                         ModBlocks.FLOURITE_DEEPSLATE_BLOCK
                 );
+        // fro nether flourite block
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.FLOURITE_BLOCK,
+                        ModBlocks.FLOURITE_DEEPSLATE_BLOCK,
+                        ModBlocks.FLOURITE_NETHER_BLOCK);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.FLOURITE_DEEPSLATE_BLOCK,
+                        ModBlocks.FLOURITE_NETHER_BLOCK);
 
 
         //getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)

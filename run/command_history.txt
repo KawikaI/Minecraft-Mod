@@ -1,6 +1,3 @@
-/summon tu
-/summon tutorialmod:porcupine
-/give tutorialmod:porcupine_spawn_egg
 /gamemode survival
 /gamemode creative
 /reload
@@ -48,3 +45,6 @@
 /reload
 /loot give @s loot tutorialmod:blocks/flourite_deepslate_block
 /gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival

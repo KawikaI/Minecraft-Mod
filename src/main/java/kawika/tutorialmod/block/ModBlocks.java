@@ -1,6 +1,7 @@
 package kawika.tutorialmod.block;
 import kawika.tutorialmod.TutorialMod;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.BowItem;
@@ -38,6 +39,18 @@ public class ModBlocks {
     public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 5),
                     AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+
+
+
+    public static final Block FLOURITE_NETHER_BLOCK = Registry.register(
+            Registries.BLOCK,
+            Identifier.of(TutorialMod.MOD_ID, "flourite_nether_block"),
+            new Block(FabricBlockSettings.create()
+                    .strength(3.0f, 3.0f)      // tweak hardness/resistance
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.NETHER_GOLD_ORE)) // or NETHERRACK, STONE, etc.
+    );
 
     public static final Block FLOURITE_BUTTON = registerBlock("flourite_button",
             new ButtonBlock(BlockSetType.IRON, 10, AbstractBlock.Settings.create().requiresTool()));

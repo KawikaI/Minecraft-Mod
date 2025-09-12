@@ -1,6 +1,0 @@
-{
-  "parent": "tutorialmod:item/goon_bow",
-  "textures": {
-    "layer0": "tutorialmod:item/goon_bow_pulling_1"
-  }
-}

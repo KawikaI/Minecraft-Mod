@@ -22,6 +22,13 @@ import java.util.concurrent.CompletableFuture;
 public class ModRecipeGenerator extends FabricRecipeProvider {
     public ModRecipeGenerator(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
+
+        List<ItemConvertible> FLUORITE_SMELTABLES = List.of(
+                ModItems.RAW_FLOURITE,
+                ModBlocks.FLOURITE_BLOCK,
+                ModBlocks.FLOURITE_DEEPSLATE_BLOCK,
+                ModBlocks.FLOURITE_NETHER_BLOCK   // ← add this
+        );
     }
 
     @Override

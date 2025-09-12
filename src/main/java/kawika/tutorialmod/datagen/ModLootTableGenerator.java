@@ -30,6 +30,9 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.FLOURITE_BLOCK);
+
+        addDrop(ModBlocks.FLOURITE_NETHER_BLOCK,
+                oreDrops(ModBlocks.FLOURITE_NETHER_BLOCK, ModItems.RAW_FLOURITE));
        
 
         addDrop(ModBlocks.FLOURITE_BLOCK, oreDrops(ModBlocks.FLOURITE_BLOCK, ModItems.RAW_FLOURITE));
@@ -44,6 +47,9 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
 
 
     }
+
+
+    ;
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
         RegistryWrapper.Impl<Enchantment> impl = this.registryLookup.getWrapperOrThrow(RegistryKeys.ENCHANTMENT);

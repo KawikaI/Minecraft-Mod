@@ -1,6 +1,7 @@
 package kawika.tutorialmod.item;
 
 import kawika.tutorialmod.TutorialMod;
+import kawika.tutorialmod.block.ModBlocks;
 import kawika.tutorialmod.entity.ModEntities;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -26,6 +27,9 @@ public class ModItems {
 
     public static final Item GOON_BOW = registerItem("goon_bow",
             new BowItem(new Item.Settings().maxDamage(500)));
+
+    public static final Item FLOURITE_NETHER_BLOCK = registerItem("flourite_nether_block",
+            new BlockItem(ModBlocks.FLOURITE_NETHER_BLOCK, new Item.Settings()));
 
     public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)) {
         @Override

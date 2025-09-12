@@ -1,5 +1,5 @@
-[15:38:21] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21 with Fabric Loader 0.16.9
-[15:38:21] [main/INFO] (FabricLoader) Loading 43 mods:
+[19:13:40] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21 with Fabric Loader 0.16.9
+[19:13:40] [main/INFO] (FabricLoader) Loading 43 mods:
 	- fabric-api 0.102.0+1.21
 	- fabric-api-base 0.4.42+6573ed8cd1
 	- fabric-api-lookup-api-v1 1.6.68+b5597344d1
@@ -42,16 +42,27 @@
 	- java 21
 	- minecraft 1.21
 	- mixinextras 0.4.1
-	- tutorial-mod 1.0.0
-[15:38:21] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/kawikai/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[15:38:21] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[15:38:21] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[15:38:21] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[15:38:21] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[15:38:25] [main/INFO] (tutorialmod) Registering Entities for tutorialmod
-[15:38:25] [main/INFO] (tutorialmod) Registering Mod Items for tutorialmod
-[15:38:25] [main/INFO] (tutorialmod) Registering Mod Blocks for tutorialmod
-[15:38:25] [main/INFO] (tutorialmod) Registering Item Groups for tutorialmod
-[15:38:25] [main/INFO] (FabricDataGenHelper) Running data generator for tutorial-mod
-[15:38:25] [main/INFO] (Minecraft) All providers took: 0 ms
-[15:38:25] [main/INFO] (Minecraft) Caching: total files: 0, old count: 0, new count: 1, removed stale: 0, written: 0
+	- tutorialmod 1.0.0
+[19:13:40] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/kawikai/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:13:40] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[19:13:40] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[19:13:40] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[19:13:41] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:13:44] [main/INFO] (tutorialmod) Registering Entities for tutorialmod
+[19:13:44] [main/INFO] (tutorialmod) Registering Mod Items for tutorialmod
+[19:13:44] [main/INFO] (tutorialmod) Registering Mod Blocks for tutorialmod
+[19:13:44] [main/INFO] (tutorialmod) Registering Item Groups for tutorialmod
+[19:13:44] [main/INFO] (FabricDataGenHelper) Running data generator for tutorialmod
+[19:13:44] [main/INFO] (Minecraft) [STDOUT]: >>> datagen: onInitializeDataGenerator
+[19:13:45] [main/INFO] (Minecraft) Starting provider: tutorial mod/Tags for minecraft:block
+[19:13:45] [main/INFO] (Minecraft) tutorial mod/Tags for minecraft:block finished after 6 ms
+[19:13:45] [main/INFO] (Minecraft) Starting provider: tutorial mod/Tags for minecraft:item
+[19:13:45] [main/INFO] (Minecraft) tutorial mod/Tags for minecraft:item finished after 0 ms
+[19:13:45] [main/INFO] (Minecraft) Starting provider: tutorial mod/Block Loot Tables
+[19:13:45] [main/INFO] (Minecraft) tutorial mod/Block Loot Tables finished after 5 ms
+[19:13:45] [main/INFO] (Minecraft) Starting provider: tutorial mod/Model Definitions
+[19:13:45] [main/INFO] (Minecraft) tutorial mod/Model Definitions finished after 21 ms
+[19:13:45] [main/INFO] (Minecraft) Starting provider: tutorial mod/Recipes
+[19:13:45] [main/INFO] (Minecraft) tutorial mod/Recipes finished after 13 ms
+[19:13:45] [main/INFO] (Minecraft) All providers took: 49 ms
+[19:13:45] [main/INFO] (Minecraft) Caching: total files: 122, old count: 113, new count: 123, removed stale: 0, written: 9
