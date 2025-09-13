@@ -61,6 +61,7 @@ public class ModModelProvider extends FabricModelProvider {
 
 
         itemModelGenerator.register(ModItems.CAULIFLOWER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PORCUPINE_SPAWN_EGG, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GOON_BOW, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.PINK_GARNET_SWORD, Models.HANDHELD);

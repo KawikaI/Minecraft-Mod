@@ -3,11 +3,18 @@ package kawika.tutorialmod;
 
 
 import kawika.tutorialmod.block.ModBlocks;
+import kawika.tutorialmod.entity.ModEntities;
+import kawika.tutorialmod.entity.client.ModModelLayers;
+import kawika.tutorialmod.entity.client.PorcupineModel;
+import kawika.tutorialmod.entity.custom.PorcupineEntity;
 import kawika.tutorialmod.item.ModItemGroups;
 import kawika.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -33,6 +40,15 @@ public class TutorialMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
+
+		FabricDefaultAttributeRegistry.register(
+				ModEntities.PORCUPINE,
+				PorcupineEntity.createPorcupineAttributes() // or createAttributes()
+		);
+
+
+
+
 
 
 
