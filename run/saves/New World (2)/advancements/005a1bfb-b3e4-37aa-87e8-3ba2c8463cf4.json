@@ -1,0 +1,46 @@
+{
+  "tutorialmod:recipes/misc/flourite_from_smelting_flourite_block": {
+    "criteria": {
+      "has_flourite_block": "2025-09-12 15:31:37 -0600"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/building_blocks/flourite": {
+    "criteria": {
+      "has_flourite_block": "2025-09-12 15:31:37 -0600"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/flourite_from_blasting_flourite_deepslate_block": {
+    "criteria": {
+      "has_flourite_deepslate_block": "2025-09-12 15:37:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-12 15:31:31 -0600"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/flourite_from_smelting_flourite_deepslate_block": {
+    "criteria": {
+      "has_flourite_deepslate_block": "2025-09-12 15:37:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sunflower_plains": "2025-09-12 15:31:31 -0600",
+      "minecraft:plains": "2025-09-12 15:38:03 -0600"
+    },
+    "done": false
+  },
+  "tutorialmod:recipes/misc/flourite_from_blasting_flourite_block": {
+    "criteria": {
+      "has_flourite_block": "2025-09-12 15:31:37 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

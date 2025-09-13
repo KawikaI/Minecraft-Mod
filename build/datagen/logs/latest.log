@@ -1,5 +1,5 @@
-[19:13:40] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21 with Fabric Loader 0.16.9
-[19:13:40] [main/INFO] (FabricLoader) Loading 43 mods:
+[16:07:52] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21 with Fabric Loader 0.16.9
+[16:07:52] [main/INFO] (FabricLoader) Loading 43 mods:
 	- fabric-api 0.102.0+1.21
 	- fabric-api-base 0.4.42+6573ed8cd1
 	- fabric-api-lookup-api-v1 1.6.68+b5597344d1
@@ -43,26 +43,25 @@
 	- minecraft 1.21
 	- mixinextras 0.4.1
 	- tutorialmod 1.0.0
-[19:13:40] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/kawikai/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[19:13:40] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[19:13:40] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[19:13:40] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[19:13:41] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19:13:44] [main/INFO] (tutorialmod) Registering Entities for tutorialmod
-[19:13:44] [main/INFO] (tutorialmod) Registering Mod Items for tutorialmod
-[19:13:44] [main/INFO] (tutorialmod) Registering Mod Blocks for tutorialmod
-[19:13:44] [main/INFO] (tutorialmod) Registering Item Groups for tutorialmod
-[19:13:44] [main/INFO] (FabricDataGenHelper) Running data generator for tutorialmod
-[19:13:44] [main/INFO] (Minecraft) [STDOUT]: >>> datagen: onInitializeDataGenerator
-[19:13:45] [main/INFO] (Minecraft) Starting provider: tutorial mod/Tags for minecraft:block
-[19:13:45] [main/INFO] (Minecraft) tutorial mod/Tags for minecraft:block finished after 6 ms
-[19:13:45] [main/INFO] (Minecraft) Starting provider: tutorial mod/Tags for minecraft:item
-[19:13:45] [main/INFO] (Minecraft) tutorial mod/Tags for minecraft:item finished after 0 ms
-[19:13:45] [main/INFO] (Minecraft) Starting provider: tutorial mod/Block Loot Tables
-[19:13:45] [main/INFO] (Minecraft) tutorial mod/Block Loot Tables finished after 5 ms
-[19:13:45] [main/INFO] (Minecraft) Starting provider: tutorial mod/Model Definitions
-[19:13:45] [main/INFO] (Minecraft) tutorial mod/Model Definitions finished after 21 ms
-[19:13:45] [main/INFO] (Minecraft) Starting provider: tutorial mod/Recipes
-[19:13:45] [main/INFO] (Minecraft) tutorial mod/Recipes finished after 13 ms
-[19:13:45] [main/INFO] (Minecraft) All providers took: 49 ms
-[19:13:45] [main/INFO] (Minecraft) Caching: total files: 122, old count: 113, new count: 123, removed stale: 0, written: 9
+[16:07:52] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/kawikai/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:07:52] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[16:07:52] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[16:07:52] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[16:07:53] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[16:07:56] [main/INFO] (tutorialmod) Registering Mod Items for tutorialmod
+[16:07:56] [main/INFO] (tutorialmod) Registering Mod Blocks for tutorialmod
+[16:07:56] [main/INFO] (tutorialmod) Registering Item Groups for tutorialmod
+[16:07:56] [main/INFO] (FabricDataGenHelper) Running data generator for tutorialmod
+[16:07:56] [main/INFO] (Minecraft) [STDOUT]: >>> datagen: onInitializeDataGenerator
+[16:07:56] [main/INFO] (Minecraft) Starting provider: tutorial mod/Tags for minecraft:block
+[16:07:56] [main/INFO] (Minecraft) tutorial mod/Tags for minecraft:block finished after 11 ms
+[16:07:56] [main/INFO] (Minecraft) Starting provider: tutorial mod/Tags for minecraft:item
+[16:07:56] [main/INFO] (Minecraft) tutorial mod/Tags for minecraft:item finished after 0 ms
+[16:07:56] [main/INFO] (Minecraft) Starting provider: tutorial mod/Block Loot Tables
+[16:07:56] [main/INFO] (Minecraft) tutorial mod/Block Loot Tables finished after 7 ms
+[16:07:56] [main/INFO] (Minecraft) Starting provider: tutorial mod/Model Definitions
+[16:07:57] [main/INFO] (Minecraft) tutorial mod/Model Definitions finished after 22 ms
+[16:07:57] [main/INFO] (Minecraft) Starting provider: tutorial mod/Recipes
+[16:07:57] [main/INFO] (Minecraft) tutorial mod/Recipes finished after 15 ms
+[16:07:57] [main/INFO] (Minecraft) All providers took: 58 ms
+[16:07:57] [main/INFO] (Minecraft) Caching: total files: 122, old count: 122, new count: 123, removed stale: 0, written: 0
