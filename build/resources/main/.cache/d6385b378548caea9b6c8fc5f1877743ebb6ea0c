@@ -1,3 +1,3 @@
-// 1.21	2025-09-12T16:07:57.023243	tutorial mod/Tags for minecraft:block
-d8f0efdd1fa1a4280fc088ebbfe4db2d82afb329 data/minecraft/tags/block/needs_iron_tool.json
-e353a2cc2749d40eb1a552ebce27c6236636e9f4 data/minecraft/tags/block/mineable/pickaxe.json
+// 1.21	2025-09-17T10:04:25.887363	tutorial mod/Tags for minecraft:block
+8ea7ef07b4e22c370c40235736b8c8dc147295ff data/minecraft/tags/block/needs_iron_tool.json
+3f9f0211c9c32a054f345e4cc19d48fe7ecb054c data/minecraft/tags/block/mineable/pickaxe.json

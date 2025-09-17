@@ -75,6 +75,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLOURITE_BUTTON);
                         entries.add(ModBlocks.FLOURITE_PRESSURE_PLATE);
                         entries.add(ModBlocks.FLOURITE_NETHER_BLOCK);
+                        entries.add(ModItems.KAWIKA_SMITHING_TEMPLATE);
                         
 
 

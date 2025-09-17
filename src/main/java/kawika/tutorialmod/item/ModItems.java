@@ -9,6 +9,7 @@ import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import java.util.List;
@@ -73,6 +74,10 @@ public class ModItems {
     public static final Item FLOURITE_BOOTS = registerItem("flourite_boots",
             new ArmorItem(ModArmorMaterials.FLOURITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item KAWIKA_SMITHING_TEMPLATE = registerItem("kawika_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(TutorialMod.MOD_ID, "kawika"), FeatureFlags.VANILLA));
+
 
 
 

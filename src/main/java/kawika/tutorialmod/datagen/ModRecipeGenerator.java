@@ -61,5 +61,8 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.FLOURITE), conditionsFromItem(ModItems.FLOURITE))
                 .offerTo(exporter, Identifier.of(TutorialMod.MOD_ID, "raw_flourite_2"));
 
+
+        offerSmithingTrimRecipe(exporter, ModItems.KAWIKA_SMITHING_TEMPLATE, Identifier.of(TutorialMod.MOD_ID, "kawika"));
+
     }
 }

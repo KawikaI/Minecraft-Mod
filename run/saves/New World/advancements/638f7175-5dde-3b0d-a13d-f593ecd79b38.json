@@ -1,0 +1,33 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-16 15:24:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2025-09-16 15:24:26 -0600"
+    },
+    "done": false
+  },
+  "tutorialmod:recipes/misc/kawika": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-09-16 15:24:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-09-16 15:24:52 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-09-16 15:25:05 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

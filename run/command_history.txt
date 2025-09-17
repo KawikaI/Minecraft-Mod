@@ -1,7 +1,3 @@
-/gamemode
-/gamemode survival
-/gamemode creative
-/gamemode survival
 /gamemode creative
 /gamemode survival
 /gamemode creative
@@ -48,3 +44,7 @@
 /execute in minecraft:the_nether run tp @s 0 80 0
 /give Player170 minecraft:structure_block
 /setblock -19 120 35 minecraft:chest{LootTable:"chests/simple_dungeon"}
+/reload
+/gamemode survival
+/gamemode creative
+/gamemode survival
