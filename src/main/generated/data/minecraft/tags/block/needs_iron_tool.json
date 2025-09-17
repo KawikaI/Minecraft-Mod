@@ -2,6 +2,9 @@
   "values": [
     "tutorialmod:flourite_deepslate_block",
     "tutorialmod:flourite_nether_block",
+    "tutorialmod:pink_garnet_deepslate_ore",
+    "tutorialmod:pink_garnet_ore",
+    "tutorialmod:raw_pink_garnet_block",
     "tutorialmod:pink_garnet_block"
   ]
 }

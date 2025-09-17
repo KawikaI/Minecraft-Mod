@@ -1,0 +1,87 @@
+{
+  "tutorialmod:recipes/misc/flourite_from_smelting_raw_flourite": {
+    "criteria": {
+      "has_raw_flourite": "2025-09-17 10:24:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-09-17 10:24:33 -0600"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/flourite_from_blasting_raw_flourite": {
+    "criteria": {
+      "has_raw_flourite": "2025-09-17 10:24:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-09-17 10:24:33 -0600"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/flourite_from_smelting_flourite_block": {
+    "criteria": {
+      "has_flourite_block": "2025-09-17 10:24:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-09-17 10:24:33 -0600"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/building_blocks/flourite": {
+    "criteria": {
+      "has_flourite_block": "2025-09-17 10:24:33 -0600"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/flourite_from_blasting_flourite_deepslate_block": {
+    "criteria": {
+      "has_flourite_deepslate_block": "2025-09-17 10:24:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-17 10:24:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-09-17 10:24:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-09-17 10:24:33 -0600"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/flourite_from_smelting_flourite_deepslate_block": {
+    "criteria": {
+      "has_flourite_deepslate_block": "2025-09-17 10:24:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2025-09-17 10:24:34 -0600"
+    },
+    "done": false
+  },
+  "tutorialmod:recipes/misc/flourite_from_blasting_flourite_block": {
+    "criteria": {
+      "has_flourite_block": "2025-09-17 10:24:33 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

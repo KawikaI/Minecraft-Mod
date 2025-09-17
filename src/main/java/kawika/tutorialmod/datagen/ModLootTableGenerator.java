@@ -1,12 +1,9 @@
 package kawika.tutorialmod.datagen;
 
-
-
+import kawika.tutorialmod.block.ModBlocks;
+import kawika.tutorialmod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import kawika.tutorialmod.item.ModItems;
-import kawika.tutorialmod.block.ModBlocks;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
@@ -23,40 +20,50 @@ import net.minecraft.registry.RegistryWrapper;
 import java.util.concurrent.CompletableFuture;
 
 public class ModLootTableGenerator extends FabricBlockLootTableProvider {
-    public ModLootTableGenerator(FabricDataOutput dataOutput, CompletableFuture<RegistryWrapper.WrapperLookup> registryLookup) {
-        super(dataOutput, registryLookup);
+    public ModLootTableGenerator(FabricDataOutput out,
+                                 CompletableFuture<RegistryWrapper.WrapperLookup> registryLookup) {
+        super(out, registryLookup);
     }
 
     @Override
     public void generate() {
-        addDrop(ModBlocks.FLOURITE_BLOCK);
-
+        // ===== FLOURITE: blocks drop the FLOURITE item (with fortune), not themselves
+        addDrop(ModBlocks.FLOURITE_BLOCK,
+                multipleItemDrops(ModBlocks.FLOURITE_BLOCK, ModItems.FLOURITE, 1, 3)); // tweak counts
+        addDrop(ModBlocks.FLOURITE_DEEPSLATE_BLOCK,
+                multipleItemDrops(ModBlocks.FLOURITE_DEEPSLATE_BLOCK, ModItems.FLOURITE, 1, 3));
         addDrop(ModBlocks.FLOURITE_NETHER_BLOCK,
-                oreDrops(ModBlocks.FLOURITE_NETHER_BLOCK, ModItems.RAW_FLOURITE));
-       
+                multipleItemDrops(ModBlocks.FLOURITE_NETHER_BLOCK, ModItems.FLOURITE, 1, 3));
 
-        addDrop(ModBlocks.FLOURITE_BLOCK, oreDrops(ModBlocks.FLOURITE_BLOCK, ModItems.RAW_FLOURITE));
-        addDrop(ModBlocks.FLOURITE_DEEPSLATE_BLOCK, multipleOreDrops(ModBlocks.FLOURITE_DEEPSLATE_BLOCK, ModItems.RAW_FLOURITE, 2, 5));
-
-
-
-
+        // Non-cube flourite parts
         addDrop(ModBlocks.FLOURITE_BUTTON);
         addDrop(ModBlocks.FLOURITE_PRESSURE_PLATE);
 
+        // ===== PINK GARNET (as you had it working)
+        addDrop(ModBlocks.PINK_GARNET_ORE,
+                oreDrops(ModBlocks.PINK_GARNET_ORE, ModItems.RAW_PINK_GARNET));
+        addDrop(ModBlocks.PINK_GARNET_DEEPSLATE_ORE,
+                oreDrops(ModBlocks.PINK_GARNET_DEEPSLATE_ORE, ModItems.RAW_PINK_GARNET));
 
+        addDrop(ModBlocks.RAW_PINK_GARNET_BLOCK); // drops itself
 
+        addDrop(ModBlocks.PINK_GARNET_BLOCK,
+                multipleItemDrops(ModBlocks.PINK_GARNET_BLOCK, ModItems.PINK_GARNET, 4, 9));
     }
 
+    /** Drop multiple of an item, fortune-compatible, silk touch handled. */
+    private LootTable.Builder multipleItemDrops(Block sourceBlock, Item dropItem, int min, int max) {
+        // Fortune formula same as ore drops; tweak if you want linear count bonus instead
+        RegistryWrapper.Impl<Enchantment> enchants =
+                this.registryLookup.getWrapperOrThrow(RegistryKeys.ENCHANTMENT);
 
-    ;
-
-    public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
-        RegistryWrapper.Impl<Enchantment> impl = this.registryLookup.getWrapperOrThrow(RegistryKeys.ENCHANTMENT);
-        return this.dropsWithSilkTouch(drop, this.applyExplosionDecay(drop, ((LeafEntry.Builder<?>)
-                ItemEntry.builder(item).apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(minDrops, maxDrops))))
-                .apply(ApplyBonusLootFunction.oreDrops(impl.getOrThrow(Enchantments.FORTUNE)))));
+        return this.dropsWithSilkTouch(sourceBlock,
+                this.applyExplosionDecay(sourceBlock,
+                        ((LeafEntry.Builder<?>)
+                                ItemEntry.builder(dropItem)
+                                        .apply(SetCountLootFunction
+                                                .builder(UniformLootNumberProvider.create(min, max))))
+                                .apply(ApplyBonusLootFunction.oreDrops(enchants.getOrThrow(Enchantments.FORTUNE)))
+                ));
     }
 }
-
-
