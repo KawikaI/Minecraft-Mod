@@ -9,6 +9,7 @@ import kawika.tutorialmod.entity.client.PorcupineModel;
 import kawika.tutorialmod.entity.custom.PorcupineEntity;
 import kawika.tutorialmod.item.ModItemGroups;
 import kawika.tutorialmod.item.ModItems;
+import kawika.tutorialmod.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
@@ -52,7 +53,7 @@ public class TutorialMod implements ModInitializer {
 
 
 
-		//ModWorldGeneration.generateModWorldGeneration();
+		ModWorldGeneration.generateModWorldGeneration();
 
 
 
