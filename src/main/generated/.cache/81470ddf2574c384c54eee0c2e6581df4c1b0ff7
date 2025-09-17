@@ -1,4 +1,4 @@
-// 1.21	2025-09-17T16:45:20.914254	tutorial mod/Model Definitions
+// 1.21	2025-09-17T17:57:01.130475	tutorial mod/Model Definitions
 d31db6fb9f2a78fa07b0ce8e39f09a2242ff59fa assets/tutorialmod/models/item/flourite_shovel.json
 e6ce31e2d850fdc4b307c7e14fd0ce396c09c357 assets/tutorialmod/models/item/raw_pink_garnet_block.json
 3d17bc2ce68bad5052c7c0dc8e46bf661ce9acf4 assets/tutorialmod/models/block/flourite_button_inventory.json
@@ -20,6 +20,7 @@ e6452fc4c7428331e24e59e592863ef2e56b6bb7 assets/tutorialmod/models/item/flourite
 05a5a8ad996f536b428e3bcc9d027728120fdd3d assets/tutorialmod/models/block/flourite_pressure_plate_down.json
 8f1f80bbf89583a0ff289dc2893ae9bc07a722f7 assets/tutorialmod/models/item/pink_garnet_shovel.json
 4567ed5accb915d6d369bc198680dd8cdc1d4409 assets/tutorialmod/models/item/flourite_chestplate.json
+21505e9870d08d83721f3ac8d5fd21ba98ae0b20 assets/tutorialmod/blockstates/flourite_ore.json
 5b880a41b97415b6c3bdbc4017793d60ed74980d assets/tutorialmod/models/item/flourite_boots_amethyst_trim.json
 8995c039aa4ff9c9a3cfdc35dcff9890ea3e54b4 assets/tutorialmod/models/item/pink_garnet_axe.json
 7ddf184bd31765ceacad74f9192449e48e023519 assets/tutorialmod/models/item/flourite_pickaxe.json
@@ -47,6 +48,7 @@ c11dd9eaadb05ad07e98d9462f1f56b8932c0f26 assets/tutorialmod/models/block/pink_ga
 51e284acfc4c530df0558dcf2d79b0ccb312bca8 assets/tutorialmod/models/item/flourite_boots_gold_trim.json
 ab2bb9c554a1cf92aca842dfc2266a4135bbbb5d assets/tutorialmod/models/item/flourite_chestplate_quartz_trim.json
 2c0d335a5049abb4cbc4352af688df195aeedc82 assets/tutorialmod/models/block/flourite_deepslate_block.json
+4484003d877d2aedac34b9081e1b44350a63cafd assets/tutorialmod/models/item/flourite_ore.json
 57e30f54a5f8cabd13db8a1c1942e7316bb4160e assets/tutorialmod/models/item/pink_garnet_hoe.json
 2cf9938416b36a4595aeb1edae46e48e81e28672 assets/tutorialmod/models/item/flourite.json
 2d9e35474288d2e0f1b0cb96ae97793bcddc38fb assets/tutorialmod/models/item/flourite_chestplate_amethyst_trim.json
@@ -69,6 +71,7 @@ e6fe82c3dbda2cfaa2cf36c3a3af74bdcc808b97 assets/tutorialmod/models/item/flourite
 92dbdb26460cd34ed090d310625762e20b3b4191 assets/tutorialmod/models/item/flourite_deepslate_block.json
 136c02ab8c24423c793fea54a3f24b412ddb1c4c assets/tutorialmod/models/item/flourite_chestplate_emerald_trim.json
 b0e80372e6f422e8c70b62e056e3ec7a55805d5a assets/tutorialmod/models/item/flourite_button.json
+b481936cfc6bb4a6f31363a4c04bf39ca1cf9c94 assets/tutorialmod/models/block/flourite_ore.json
 b6e91b078a1d53f3c302b260fa6198131b76fdcb assets/tutorialmod/models/item/kawika_armor_trim_smithing_template.json
 e59fc7d5c28f83aacf814ed5e03937dd97674619 assets/tutorialmod/models/item/flourite_leggings_redstone_trim.json
 5e74b3896ac0a4be1203e712ad079b5480892ca7 assets/tutorialmod/models/item/flourite_helmet_emerald_trim.json

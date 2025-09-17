@@ -1,0 +1,118 @@
+{
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/raw_flourite": {
+    "criteria": {
+      "has_flourite": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/decorations/flourite_block": {
+    "criteria": {
+      "has_flourite": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sparse_jungle": "2025-09-17 17:45:00 -0600",
+      "minecraft:river": "2025-09-17 17:45:08 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "tutorialmod:recipes/misc/raw_flourite_2": {
+    "criteria": {
+      "has_flourite": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-09-17 17:44:59 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

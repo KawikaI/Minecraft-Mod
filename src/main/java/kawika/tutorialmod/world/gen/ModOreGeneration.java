@@ -10,7 +10,7 @@ import net.minecraft.world.gen.GenerationStep;
 public class ModOreGeneration {
     public static void generateOres() {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
-                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.FLOURITE_BLOCK_PLACED_KEY);
+                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.FLOURITE_ORE_PLACED_KEY);
 
 
 

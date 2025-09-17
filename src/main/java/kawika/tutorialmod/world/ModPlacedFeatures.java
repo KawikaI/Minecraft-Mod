@@ -18,7 +18,7 @@ import java.util.List;
 public class ModPlacedFeatures {
 
 
-    public static final RegistryKey<PlacedFeature> FLOURITE_BLOCK_PLACED_KEY = registerKey("flourite_block_placed");
+    public static final RegistryKey<PlacedFeature> FLOURITE_ORE_PLACED_KEY = registerKey("flourite_ore_placed");
     public static final RegistryKey<PlacedFeature> NETHER_FLOURITE_BLOCK_PLACED_KEY = registerKey("nether_flourite_block_placed");
 
 
@@ -30,7 +30,7 @@ public class ModPlacedFeatures {
 
 
 
-        register(context, FLOURITE_BLOCK_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.FLOURITE_BLOCK_KEY),
+        register(context, FLOURITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.FLOURITE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(14, // Veins per Chunk
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NETHER_FLOURITE_BLOCK_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHER_FLOURITE_BLOCK_KEY),

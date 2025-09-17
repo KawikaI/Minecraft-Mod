@@ -27,6 +27,12 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool()));
 
+    public static final Block FLOURITE_ORE = registerBlock("flourite_ore",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool()));
+
+
+
     public static final Block FLOURITE_DEEPSLATE_BLOCK = registerBlock("flourite_deepslate_block",
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool()));

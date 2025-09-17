@@ -27,7 +27,7 @@ import java.util.List;
 public class ModConfiguredFeatures {
 
 
-    public static final RegistryKey<ConfiguredFeature<?, ?>> FLOURITE_BLOCK_KEY = registerKey("flourite_block");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> FLOURITE_ORE_KEY = registerKey("flourite_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> NETHER_FLOURITE_BLOCK_KEY = registerKey("nether_flourite_block");
 
 
@@ -40,7 +40,7 @@ public class ModConfiguredFeatures {
         RuleTest endReplaceables = new BlockMatchRuleTest(Blocks.END_STONE);
 
         List<OreFeatureConfig.Target> overworldFluoriteOres =
-                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.FLOURITE_BLOCK.getDefaultState()),
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.FLOURITE_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.FLOURITE_DEEPSLATE_BLOCK.getDefaultState()));
 
         List<OreFeatureConfig.Target> netherFluoriteOres =
@@ -48,7 +48,7 @@ public class ModConfiguredFeatures {
 
 
 
-        register(context, FLOURITE_BLOCK_KEY, Feature.ORE, new OreFeatureConfig(overworldFluoriteOres,12));
+        register(context, FLOURITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldFluoriteOres,12));
         register(context, NETHER_FLOURITE_BLOCK_KEY, Feature.ORE, new OreFeatureConfig(netherFluoriteOres,9));
 
 
