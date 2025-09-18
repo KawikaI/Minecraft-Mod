@@ -23,8 +23,14 @@ public class ModTrimMaterials {
     public static final RegistryKey<ArmorTrimMaterial> FLOURITE = RegistryKey.of(RegistryKeys.TRIM_MATERIAL,
             Identifier.of(TutorialMod.MOD_ID, "flourite"));
 
+    public static final RegistryKey<ArmorTrimMaterial> PINK_GARNET = RegistryKey.of(RegistryKeys.TRIM_MATERIAL,
+            Identifier.of(TutorialMod.MOD_ID, "pink_garnet"));
+
     public static void bootstrap(Registerable<ArmorTrimMaterial> registerable) {
-        register(registerable, FLOURITE, Registries.ITEM.getEntry(ModItems.FLOURITE), Style.EMPTY.withColor(TextColor.parse("#b03fe0").getOrThrow()),
+        register(registerable, FLOURITE, Registries.ITEM.getEntry(ModItems.FLOURITE), Style.EMPTY.withColor(TextColor.parse("#4cdbe0").getOrThrow()),
+                1.0f);
+
+        register(registerable, PINK_GARNET, Registries.ITEM.getEntry(ModItems.PINK_GARNET), Style.EMPTY.withColor(TextColor.parse("#e319a6").getOrThrow()),
                 1.0f);
     }
 

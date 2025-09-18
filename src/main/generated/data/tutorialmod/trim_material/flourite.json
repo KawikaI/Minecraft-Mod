@@ -1,7 +1,7 @@
 {
   "asset_name": "flourite",
   "description": {
-    "color": "#B03FE0",
+    "color": "#4CDBE0",
     "translate": "trim_material.tutorialmod.flourite"
   },
   "ingredient": "tutorialmod:flourite",

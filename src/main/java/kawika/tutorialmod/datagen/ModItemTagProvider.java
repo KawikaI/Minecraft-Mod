@@ -38,10 +38,17 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.FLOURITE_HELMET)
                 .add(ModItems.FLOURITE_CHESTPLATE)
                 .add(ModItems.FLOURITE_LEGGINGS)
-                .add(ModItems.FLOURITE_BOOTS);
+                .add(ModItems.FLOURITE_BOOTS)
+
+                .add(ModItems.PINK_GARNET_HELMET)
+                .add(ModItems.PINK_GARNET_CHESTPLATE)
+                .add(ModItems.PINK_GARNET_LEGGINGS)
+                .add(ModItems.PINK_GARNET_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
-                .add(ModItems.FLOURITE);
+                .add(ModItems.FLOURITE)
+                .add(ModItems.PINK_GARNET);
+
 
         getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
                 .add(ModItems.KAWIKA_SMITHING_TEMPLATE);
