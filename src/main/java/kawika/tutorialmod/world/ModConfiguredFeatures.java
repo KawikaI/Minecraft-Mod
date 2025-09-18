@@ -30,6 +30,11 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> FLOURITE_ORE_KEY = registerKey("flourite_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> NETHER_FLOURITE_BLOCK_KEY = registerKey("nether_flourite_block");
 
+    public static final RegistryKey<ConfiguredFeature<?, ?>> PINK_GARNET_ORE_KEY = registerKey("pink_garnet_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> PINK_GARNET_DEEPSLATE_ORE_KEY = registerKey("pink_garnet_deepslate_ore");
+
+    public static final RegistryKey<ConfiguredFeature<?, ?>> RAW_PINK_GARNET_BLOCK_KEY = registerKey("raw_pink_garnet_block");
+
 
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
@@ -43,6 +48,16 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.FLOURITE_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.FLOURITE_DEEPSLATE_BLOCK.getDefaultState()));
 
+        List<OreFeatureConfig.Target> overworldPink_GarnetOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.PINK_GARNET_ORE.getDefaultState()),
+                        //OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.RAW_PINK_GARNET_BLOCK.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.PINK_GARNET_DEEPSLATE_ORE.getDefaultState()));
+
+        List<OreFeatureConfig.Target> rawPinkGarnetTargets = List.of(
+                OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.RAW_PINK_GARNET_BLOCK.getDefaultState()),
+                OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.RAW_PINK_GARNET_BLOCK.getDefaultState())
+        );
+
         List<OreFeatureConfig.Target> netherFluoriteOres =
                 List.of(OreFeatureConfig.createTarget(netherReplaceables, ModBlocks.FLOURITE_NETHER_BLOCK.getDefaultState()));
 
@@ -50,6 +65,11 @@ public class ModConfiguredFeatures {
 
         register(context, FLOURITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldFluoriteOres,12));
         register(context, NETHER_FLOURITE_BLOCK_KEY, Feature.ORE, new OreFeatureConfig(netherFluoriteOres,9));
+
+        register(context, PINK_GARNET_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldPink_GarnetOres,12));
+        register(context,PINK_GARNET_DEEPSLATE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldPink_GarnetOres,12));
+
+        register(context, RAW_PINK_GARNET_BLOCK_KEY, Feature.ORE, new OreFeatureConfig(rawPinkGarnetTargets,12));
 
 
 

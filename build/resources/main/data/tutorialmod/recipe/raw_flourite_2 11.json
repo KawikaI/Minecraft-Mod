@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "tutorialmod:flourite"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "FFF",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:raw_flourite"
+  }
+}

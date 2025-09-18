@@ -12,6 +12,15 @@ public class ModOreGeneration {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
                 GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.FLOURITE_ORE_PLACED_KEY);
 
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.PINK_GARNET_ORE_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.PINK_GARNET_DEEPSLATE_ORE_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.RAW_PINK_GARNET_BLOCK_PLACED_KEY);
+
 
 
         BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(),
