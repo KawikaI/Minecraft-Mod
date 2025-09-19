@@ -1,0 +1,25 @@
+{
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-09-19 12:42:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-19 12:39:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2025-09-19 12:39:33 -0600",
+      "minecraft:taiga": "2025-09-19 12:41:24 -0600",
+      "minecraft:grove": "2025-09-19 12:40:37 -0600",
+      "minecraft:snowy_plains": "2025-09-19 12:41:05 -0600",
+      "minecraft:frozen_peaks": "2025-09-19 12:41:12 -0600"
+    },
+    "done": false
+  },
+  "DataVersion": 3953
+}

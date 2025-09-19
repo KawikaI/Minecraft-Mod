@@ -8,8 +8,6 @@
 /gamemode spectator
 /effect give @s minecraft:night_vision 99999 1 true
 /gamemode spectator
-/effect give @s minecraft:night_vision 99999 1 true
-/gamemode spectator
 /execute in minecraft:the_nether run tp @s 0 80 0
 /give Player170 minecraft:structure_block
 /setblock -19 120 35 minecraft:chest{LootTable:"chests/simple_dungeon"}
@@ -48,3 +46,5 @@
 /place feature tutorialmod:blackwood
 /place feature tutorialmod:flourite_ore_placed
 /place feature tutorialmod:blackwood
+/gamemode survival
+/gamemode creative

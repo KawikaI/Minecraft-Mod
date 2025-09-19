@@ -9,7 +9,9 @@ import kawika.tutorialmod.item.ModItems;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
@@ -64,6 +66,42 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.STONE), conditionsFromItem(Blocks.STONE))
                 .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
                 .offerTo(exporter, Identifier.of(TutorialMod.MOD_ID, "raw_pink_garnet"));
+
+
+
+        // --- BLACKWOOD wood set recipes ---
+        // Logs/Woods -> Planks (4x), like vanilla
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACKWOOD_PLANKS, 4)
+                .input(ModBlocks.BLACKWOOD_LOG)
+                .criterion(hasItem(ModBlocks.BLACKWOOD_LOG), conditionsFromItem(ModBlocks.BLACKWOOD_LOG))
+                .offerTo(exporter, Identifier.of(TutorialMod.MOD_ID, "blackwood_planks_from_log"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACKWOOD_PLANKS, 4)
+                .input(ModBlocks.STRIPPED_BLACKWOOD_LOG)
+                .criterion(hasItem(ModBlocks.STRIPPED_BLACKWOOD_LOG), conditionsFromItem(ModBlocks.STRIPPED_BLACKWOOD_LOG))
+                .offerTo(exporter, Identifier.of(TutorialMod.MOD_ID, "blackwood_planks_from_stripped_log"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACKWOOD_PLANKS, 4)
+                .input(ModBlocks.BLACKWOOD_WOOD)
+                .criterion(hasItem(ModBlocks.BLACKWOOD_WOOD), conditionsFromItem(ModBlocks.BLACKWOOD_WOOD))
+                .offerTo(exporter, Identifier.of(TutorialMod.MOD_ID, "blackwood_planks_from_wood"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACKWOOD_PLANKS, 4)
+                .input(ModBlocks.STRIPPED_BLACKWOOD_WOOD)
+                .criterion(hasItem(ModBlocks.STRIPPED_BLACKWOOD_WOOD), conditionsFromItem(ModBlocks.STRIPPED_BLACKWOOD_WOOD))
+                .offerTo(exporter, Identifier.of(TutorialMod.MOD_ID, "blackwood_planks_from_stripped_wood"));
+
+        // Planks -> Sticks (like vanilla 4 sticks from 2 planks)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Items.STICK, 4)
+                .pattern("P")
+                .pattern("P")
+                .input('P', ModBlocks.BLACKWOOD_PLANKS)
+                .criterion(hasItem(ModBlocks.BLACKWOOD_PLANKS), conditionsFromItem(ModBlocks.BLACKWOOD_PLANKS))
+                .offerTo(exporter, Identifier.of(TutorialMod.MOD_ID, "sticks_from_blackwood_planks"));
+
+
+
+
 
         // Trim pattern recipe
         offerSmithingTrimRecipe(exporter, ModItems.KAWIKA_SMITHING_TEMPLATE,
