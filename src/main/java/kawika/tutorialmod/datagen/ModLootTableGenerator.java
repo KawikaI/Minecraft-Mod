@@ -49,6 +49,15 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.PINK_GARNET_BLOCK,
                 multipleItemDrops(ModBlocks.PINK_GARNET_BLOCK, ModItems.PINK_GARNET, 4, 9));
+
+        addDrop(ModBlocks.BLACKWOOD_LOG);
+        addDrop(ModBlocks.BLACKWOOD_WOOD);
+        addDrop(ModBlocks.STRIPPED_BLACKWOOD_LOG);
+        addDrop(ModBlocks.STRIPPED_BLACKWOOD_WOOD);
+        addDrop(ModBlocks.BLACKWOOD_PLANKS);
+        addDrop(ModBlocks.BLACKWOOD_SAPLING);
+
+        addDrop(ModBlocks.BLACKWOOD_LEAVES, leavesDrops(ModBlocks.BLACKWOOD_LEAVES, ModBlocks.BLACKWOOD_SAPLING, 0.0625f));
     }
 
     /** Drop multiple of an item, fortune-compatible, silk touch handled. */

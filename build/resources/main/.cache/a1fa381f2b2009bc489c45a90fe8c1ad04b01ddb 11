@@ -1,5 +1,0 @@
-// 1.21	2025-09-18T12:20:22.266863	tutorial mod/Tags for minecraft:item
-d52602eff68065b19fe0d10cee914b02e69b2f01 data/tutorialmod/tags/item/transformable_items.json
-126a24108c0b364dcf7a0923f87b3a7d21dfe9fe data/minecraft/tags/item/trim_materials.json
-0d71142327cd6fb39353619611eca7c05b29a139 data/minecraft/tags/item/trimmable_armor.json
-b2621c39905f5e124e225170fa2a69538ae5d488 data/minecraft/tags/item/trim_templates.json

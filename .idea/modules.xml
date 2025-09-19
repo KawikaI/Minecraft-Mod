@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Minecraft-Mod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Minecraft-Mod.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Minecraft-Mod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Minecraft-Mod.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com~apple~CloudDocs.Minecraft-Mod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com~apple~CloudDocs.Minecraft-Mod.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com~apple~CloudDocs.Minecraft-Mod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com~apple~CloudDocs.Minecraft-Mod.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kawika.tutorialmod.Minecraft-Mod.iml" filepath="$PROJECT_DIR$/.idea/modules/kawika.tutorialmod.Minecraft-Mod.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kawika.tutorialmod.Minecraft-Mod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kawika.tutorialmod.Minecraft-Mod.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kawika.tutorialmod.Minecraft-Mod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kawika.tutorialmod.Minecraft-Mod.test.iml" />

@@ -1,8 +1,0 @@
-{
-  "asset_id": "tutorialmod:kawika",
-  "decal": false,
-  "description": {
-    "translate": "trim_pattern.tutorialmod.kawika"
-  },
-  "template_item": "tutorialmod:kawika_armor_trim_smithing_template"
-}

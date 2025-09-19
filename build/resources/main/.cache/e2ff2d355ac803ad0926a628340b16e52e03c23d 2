@@ -1,6 +1,0 @@
-// 1.21	2025-09-12T16:07:57.025501	tutorial mod/Block Loot Tables
-ed3b9ed842fb16d596f4a4015611b457222e5a14 data/tutorialmod/loot_table/blocks/flourite_pressure_plate.json
-c0df9596822b321c8034b7ae9a9a802e86ce28ad data/tutorialmod/loot_table/blocks/flourite_button.json
-7860eb20babfc049f4083b71bb6ff6ef8de91f83 data/tutorialmod/loot_table/blocks/flourite_nether_block.json
-a73279a752b0a6ede2bdc1bafae0bd5ecd843e94 data/tutorialmod/loot_table/blocks/flourite_deepslate_block.json
-2f7693f0020b11d5bb7ad40f5d28db43359ee11e data/tutorialmod/loot_table/blocks/flourite_block.json

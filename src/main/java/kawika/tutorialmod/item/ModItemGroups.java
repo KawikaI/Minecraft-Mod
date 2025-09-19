@@ -82,6 +82,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLOURITE_NETHER_BLOCK);
                         entries.add(ModBlocks.FLOURITE_ORE);
                         entries.add(ModItems.KAWIKA_SMITHING_TEMPLATE);
+
+                        entries.add(ModBlocks.BLACKWOOD_LOG);
+                        entries.add(ModBlocks.BLACKWOOD_WOOD);
+                        entries.add(ModBlocks.STRIPPED_BLACKWOOD_LOG);
+                        entries.add(ModBlocks.STRIPPED_BLACKWOOD_WOOD);
+
+                        entries.add(ModBlocks.BLACKWOOD_PLANKS);
+                        entries.add(ModBlocks.BLACKWOOD_LEAVES);
+
+                        entries.add(ModBlocks.BLACKWOOD_SAPLING);
                         
 
 

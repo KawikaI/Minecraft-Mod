@@ -63,6 +63,14 @@
   "item.tutorialmod.pink_garnet_axe": "Pink Garnet Axe",
   "item.tutorialmod.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
 
+  "block.tutorialmod.blackwood_log": "Blackwood Log",
+  "block.tutorialmod.blackwood_wood": "Blackwood Wood",
+  "block.tutorialmod.stripped_blackwood_log": "Stripped Blackwood Log",
+  "block.tutorialmod.stripped_blackwood_wood": "Stripped Blackwood Wood",
+  "block.tutorialmod.blackwood_planks": "Blackwood Planks",
+  "block.tutorialmod.blackwood_leaves": "Blackwood Leaves",
+  "block.tutorialmod.blackwood_sapling": "Blackwood Sapling",
+
   "trim_material.tutorialmod.flourite": "Fluorite Material",
 
   "trim_pattern.tutorialmod.kawika": "Kawikas Armor Pattern",

@@ -2,6 +2,7 @@ package kawika.tutorialmod;
 import kawika.tutorialmod.datagen.ModRegistryDataGenerator;
 import kawika.tutorialmod.world.ModConfiguredFeatures;
 import kawika.tutorialmod.world.ModPlacedFeatures;
+import kawika.tutorialmod.world.gen.ModTreeGeneration;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import kawika.tutorialmod.datagen.*;
@@ -22,6 +23,7 @@ public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModRecipeGenerator::new);
 		pack.addProvider(ModRegistryDataGenerator::new);
 		pack.addProvider(ModWorldGenerator::new);
+
 	}
 
 	@Override
@@ -29,6 +31,7 @@ public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+
 
 		registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, ModTrimMaterials::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);

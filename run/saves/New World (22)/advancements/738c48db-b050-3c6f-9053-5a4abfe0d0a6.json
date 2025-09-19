@@ -1,0 +1,27 @@
+{
+  "tutorialmod:recipes/misc/kawika": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-09-19 11:07:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-09-19 11:07:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-19 11:07:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2025-09-19 11:07:08 -0600"
+    },
+    "done": false
+  },
+  "DataVersion": 3953
+}

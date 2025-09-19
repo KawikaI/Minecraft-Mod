@@ -28,6 +28,7 @@ public class ModConfiguredFeatures {
 
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> FLOURITE_ORE_KEY = registerKey("flourite_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> BLACKWOOD_KEY = registerKey("blackwood");
     public static final RegistryKey<ConfiguredFeature<?, ?>> NETHER_FLOURITE_BLOCK_KEY = registerKey("nether_flourite_block");
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> PINK_GARNET_ORE_KEY = registerKey("pink_garnet_ore");
@@ -38,6 +39,14 @@ public class ModConfiguredFeatures {
 
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
+
+        register(context, BLACKWOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.BLACKWOOD_LOG),
+                new StraightTrunkPlacer(5, 6, 3),
+                BlockStateProvider.of(ModBlocks.BLACKWOOD_LEAVES),
+                new CherryFoliagePlacer(ConstantIntProvider.create(4), ConstantIntProvider.create(1), ConstantIntProvider.create(5),
+                        0.25f, 0.5f, 0.15f, 0.05f),
+                new TwoLayersFeatureSize(1, 0, 2)).dirtProvider(BlockStateProvider.of(Blocks.END_STONE)).build());
 
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);

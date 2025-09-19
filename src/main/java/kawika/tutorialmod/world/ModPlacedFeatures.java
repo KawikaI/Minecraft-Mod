@@ -19,6 +19,7 @@ public class ModPlacedFeatures {
 
 
     public static final RegistryKey<PlacedFeature> FLOURITE_ORE_PLACED_KEY = registerKey("flourite_ore_placed");
+    public static final RegistryKey<PlacedFeature> BLACKWOOD_PLACED_KEY = registerKey("blackwood_placed");
     public static final RegistryKey<PlacedFeature> NETHER_FLOURITE_BLOCK_PLACED_KEY = registerKey("nether_flourite_block_placed");
 
     public static final RegistryKey<PlacedFeature> PINK_GARNET_ORE_PLACED_KEY = registerKey("pink_garnet_ore_placed");
@@ -32,6 +33,11 @@ public class ModPlacedFeatures {
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
+
+        register(context, BLACKWOOD_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.BLACKWOOD_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
+                        PlacedFeatures.createCountExtraModifier(2, 0.1f, 2), ModBlocks.BLACKWOOD_SAPLING));
+
 
 
 
